@@ -38,12 +38,11 @@ class BusinessCard extends StatelessWidget {
                 color: Colors.teal.shade100,
               ),
             ),
-            SizedBox(
-              height: 20.0,
-              width: 150.0,
-              child: Divider(
-                color: Colors.teal.shade100,
-              ),
+            Divider(
+              height: 20,
+              indent: 80,
+              endIndent: 80,
+              color: Colors.teal.shade100,
             ),
             Card(
               margin: const EdgeInsets.symmetric(
